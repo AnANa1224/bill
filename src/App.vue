@@ -1,0 +1,17 @@
+<template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+<style lang="scss">
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+p{margin: 0; font-size: 12px;}
+#app{background: rgba(45,140,95,0);}
+.fl{float: left;}
+.fr{float: right;}
+.cf::after{clear: both; content: ''; display: table; }
+.tac{text-align: center;}
+</style>
